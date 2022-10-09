@@ -65,7 +65,7 @@ WHY USE ANY OF THEM?
 - utility-first framework
 - you add the utility classes to control every element 
 - If you want a button with rounded edges :  ```
-<button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit">Buy now</button>
+< button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit">Buy now</ button>
 - h10 is setting the height of the button
 - px-6 is setting the padding
 - font-semibold is setting font-weight
