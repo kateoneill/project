@@ -24,4 +24,40 @@ The grid is intended to be the foundation everything is built on in this scenari
 
 ![merlin leroy](images/leroyinspo.png) Leroy Merlin a homeware department store across Europe has an inspirational magazine for the french site and the product list in these gorgeous cards. 
 <br><br>
-Those are some examples of how one might choose to incorporate cards on their site
+Those are some examples of how one might choose to incorporate cards on their site. They're popular to include on sites as it can make your sites contents more digestible and easier to understand. Peoples attention spans are limited because of the instant gratification brought by the mass consumption of short-form content via social media. "The average user attention span in 2022 is just 8 seconds"[link](https://devrix.com/tutorial/user-attention-span-2022/).  "According to Hubspot, 55% of your visitors spend less than 15 seconds on your website"[link](https://www.openweb.com/blog/the-15-second-rule-whats-making-your-visitors-leave) Essentially, that's telling us that content needs to be visual and grab attention in that time and cards are interesting way to display that content so the user can find what they're looking for as quick as possible
+<br><br>
+*I think it could be interesting to impose a card grid thing to custom create a dashboard type display*
+
+- **Images** : Every screenshot above had images on, they break up the rest of the content and draw users attentions far more than a block of text, every website will include some kind of graphics. There are SEO benefits to including images with relevant captions too. [link](https://www.logicdesign.co.uk/blog/4-reasons-images-important-website/) 
+<br><br>
+	I want to focus on background images as they are used arguably more often than one might think and getting them to behave as one wants is a lot of extra lines of code. 
+![mango](images/mango.png) Mango is a popular clothing store, as you can see in the hero section of their site, their images are full-width and not contained. If i inspect this element it tells me they're inserting them as background images. 
+![mango code](images/mangocode.png) If you look closely in the right hand panel, you see the background image code along with a series of other lines. <br>
+This one includes:
+	- background-image
+	- background-position
+	- background-repeat
+	- background-size
+I want to be able to condense this down so you add one class and it will include all the code lines necessary.
+<br><br>
+Another example is on the fields.ie website. Their slider in the hero section includes background images:
+![fields code](images/fieldscode.png)
+They are including:
+	- background-image
+	- backgroundd-position-x
+	- backgroundd-position-y
+	- background-repeat
+
+- **Table**:  The optimal way to display mismatched data. You need a variety of options for your table, need hover options for rows or columns depending on choice. There's a variety of additional designs to include in table design including things like freezing the header as you scroll, possible pagination on the table if there are too many rows and then the whole question of how to utilise them on mobile. ![jysk table](images/jysktable.png) This table is displaying content about a bedside table on [jysk](https://jysk.ie/bedroom/bedside-tables/bedside-table-tapdrup-1-drawer-white). Very simple, clean way to display information that would otherwise be lost in a heavy paragraph.
+- **List** : Lists are used for everything and the typical bullet list is falling out of favour. When on my placement we used list for social icons, even when they were being aligned horizontal, with a few different lines of CSS they were displaying as we wanted. <br><br>![Galerie Wolfsen](images/galeriewolfsenlist.png)Lists can be really cool! This example from a danish art gallery displays the artists names in a list with a border top and border bottom, with a sleek font choice and hover effect, it easily elevates what we associate a list with, a bland few lines of text with bullet points. 
+
+	![Fanta social icons list](images/fantalist.png)    This example from the fanta website shows the social icons, displayed horizontally using a ul. 
+
+- **"PAPER"**: I remember mui had one of these components that was essentially a div section with some simple stylings, i think that this is essential for my framework because I want to make it dark mode, when looking into designing a dark UI it emphasised the points of using different variants of darker colours and darker greys etc. I think this is arguably the easiest way to incorporate it, is put some kind of paper component with simple stylings and varying classes for a variety of greyscale colours. 
+
+###### Typography
+Typography is its own separate entity, a huge part of every website is choice typography because of how easily it can elevate any site. I want having responsive typography to be a central part of my framework, if one resizes their browser window the typography should resize with it, granted they have applied the relevant classes of course. 
+<br><br>
+Having applicable colours relevant in my colour scheme is also necessary for typography. Good typography establishes a [*strong visual hierarchy*](https://www.interaction-design.org/literature/topics/visual-hierarchy#:~:text=Building%20Blocks%20of%20Visual%20Hierarchy&text=Color%20%E2%80%93%20Bright%20colors%20typically%20attract,can%20suggest%20content%20is%20related.) which is so important in web design. [link](https://careerfoundry.com/en/blog/ui-design/beginners-guide-to-typography/#:~:text=Good%20typography%20will%20establish%20a,ensure%20an%20excellent%20user%20experience.) Styles are needed not only on headings but on captions, paragraphs, links, quotes and so on. Allowances for letter spacing in text, text-height altering, aligning text. Essentially covering a variety of lines of CSS one typically has to add or might consider adding on. 
+
+![Visual Hierarchy](images/hierarchy.png) [link](https://www.g2.com/articles/visual-hierarchy) 
