@@ -51,8 +51,9 @@ A software development methodology that works on the principle of delivering wor
 <br><br>
 **Key concepts**
 
-**Pros and Cons**
-*PROS*
+
+**Advantages and Disadvantages**
+*Advantages*
 - **Quality** of projects are going to be improved as there is constant testing on softwares and collaboration between developers to get jobs done
 - Projects are usually delivered in a **timely manner**
 - Less time is caught up in writing up documentation and more time is spent developing, improving and testing projects.
@@ -61,7 +62,7 @@ A software development methodology that works on the principle of delivering wor
 - Easy to **collaborate** with customers and colleagues. They have a level of trust with the client as they demonstrate any progress made or obstacles they've faced.
 - There is **constant improvement**
 
-*CONS*
+*Disadvantages*
 - When switching your management style to agile there may be some **difficulty implementing the new system** immediately. Team members need time to acclimatise to using agile. Team leaders may find it difficult finding out where they fit in as agile is a lot more collaborative than other methodologies. 
 - There's not as much emphasis in agile on producing **documentation**. As a result of this collating some documentation at the end of the project may take longer than it would have normally done if there was more periodic reviews specifically for documentation.
 - This lack of documentation can also mean new team member struggle getting up to speed and understanding how this company works or how they are implementing agile
