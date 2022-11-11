@@ -14,4 +14,12 @@ Yarn is a JavaScript package manager, yarn is built on top of the NPM registry m
 
 ![Yarn vs NPM](images/npm-yarn-popularity.png)
 As is demonstrated above, NPM remains more popular than Yarn, which justifies optimising the framework for NPM, however, Yarn is not significantly behind to warrant ruling it out entirely.
+<br><br>
+Another possibility for actually using the framework is through a CDN, CDN's are quick with good response times, usually reliable (unless you want any offline functionality), easy to use and they're public and free. Often with more popular CDN's users have them cached in browser already which eliminates any potential hiccups or wait times. It makes sense to offer a variety of ways for people to implement a library or framework.
+<br><br>
+
+
+### Minified CSS
+Minified CSS involves removing spaces from code to get the space and size of a file down, this improves site performance and speed. It can also save bandwidth. ["Minification can reduce file size by as much as 60%".](https://www.imperva.com/learn/performance/minification/#:~:text=Minification%20dramatically%20improves%20site%20speed,usage%20while%20surfing%20the%20web.) It's standard to put CSS or JS through minification to optimise it for web use. Site speed is something of major configuration when developing anything for web. It should be quick with no delays as they increase the likelihood of a consumer clicking off the page. Anything to have a site as lightweight and quick as possible should be undertaken.
+<br><br>There are many tools that help with the minification of CSS, it's possible to install a package using npm or using an online one that you can put your readable CSS with proper syntax into and it'll return the minified version.  Tools like clean css or Dan's Tools CSS minifier are available to remove unneeded spaces.
 
