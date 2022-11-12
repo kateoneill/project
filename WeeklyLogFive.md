@@ -23,3 +23,27 @@ Another possibility for actually using the framework is through a CDN, CDN's are
 Minified CSS involves removing spaces from code to get the space and size of a file down, this improves site performance and speed. It can also save bandwidth. ["Minification can reduce file size by as much as 60%".](https://www.imperva.com/learn/performance/minification/#:~:text=Minification%20dramatically%20improves%20site%20speed,usage%20while%20surfing%20the%20web.) It's standard to put CSS or JS through minification to optimise it for web use. Site speed is something of major configuration when developing anything for web. It should be quick with no delays as they increase the likelihood of a consumer clicking off the page. Anything to have a site as lightweight and quick as possible should be undertaken.
 <br><br>There are many tools that help with the minification of CSS, it's possible to install a package using npm or using an online one that you can put your readable CSS with proper syntax into and it'll return the minified version.  Tools like clean css or Dan's Tools CSS minifier are available to remove unneeded spaces.
 
+
+### Use case stories
+
+<br>
+##### Downloading source files to use the framework
+![install source files](images/source-files.jpg)
+<br>
+##### Using CDN or NPM to include the framework
+<br>
+
+![install via cdn or npm](images/cdn-npm.jpg)
+<br>
+##### Including divs for grid system
+<br>
+![grid](images/grid.jpg)
+<br>
+##### Include li / ul classes
+<br> 
+![li inclusion](images/li.jpg)
+<br>
+##### Choose template to include and use 
+<br>
+
+![templates](images/template.jpg)
