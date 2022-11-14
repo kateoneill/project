@@ -58,6 +58,8 @@ Minified CSS involves removing spaces from code to get the space and size of a f
 3. they add classes for the grid to their divs 
 4. the user opens these webpages in browser 
 5. the user tests out the responsiveness of the grid
+<br>
+
 ##### Include li / ul classes
 <br> 
 ![li inclusion](images/li.jpg)
@@ -66,6 +68,7 @@ Minified CSS involves removing spaces from code to get the space and size of a f
 2. the user located the ul and li tags for a list in their project
 3. the user adds classes as specified in online docs on to their ul
 4. the user has full customisability of the classes so plays around to get the desired look and feel
+<br>
 ##### Choose template to include and use 
 <br>
 
